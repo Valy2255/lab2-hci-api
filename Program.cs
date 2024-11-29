@@ -17,7 +17,7 @@ builder.Services.AddCors(options =>
         .AllowAnyOrigin();
     });
 });
-
+// test
 var keyVaultName = builder.Configuration["AppConfiguration:KeyVaultName"];
 if (string.IsNullOrWhiteSpace(keyVaultName))
 {
